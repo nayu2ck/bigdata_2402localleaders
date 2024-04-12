@@ -1,0 +1,1002 @@
+https://baike.baidu.com/item/Ë·ÖİÊĞ½»Í¨ÔËÊä¾Ö?force=1 ÖÎÀí¹«Â·¡°ÈıÂÒ¡±¹¤×÷
+¸¾Å®¹¤×÷	Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 782, in fangwen
+    left = left.replace(nm, '')
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: replace() argument 1 must be str, not tuple
+
+
+https://baike.baidu.com/item/ËÉÔ­ÊĞ½»Í¨ÔËÊä¾Ö?force=1 ÖÎÀí¹«Â·¡°ÈıÂÒ¡±¹¤×÷
+¸¾Å®¹¤×÷	Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 782, in fangwen
+    left = left.replace(nm, '')
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: replace() argument 1 must be str, not tuple
+
+
+https://baike.baidu.com/item/ËÉÔ­ÊĞ½»Í¨ÔËÊä¾Ö?force=1 ÖÎÀí¹«Â·¡°ÈıÂÒ¡±¹¤×÷
+¸¾Å®¹¤×÷	2024-02-01 14:52Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 784, in fangwen
+    left = left.replace(nm, '')
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: replace() argument 1 must be str, not tuple
+
+
+https://baike.baidu.com/item/ËæÖİÊĞ½»Í¨ÔËÊä¾Ö?force=1 ĞÕÃû£ºÖì¾ü	2024-02-01 16:15 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\range.py", line 345, in get_loc
+    return self._range.index(new_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 0 is not in range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 652, in fangwen
+    last = output.loc[output_row, key_]
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexing.py", line 1096, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3877, in _get_value
+    row = self.index.get_loc(index)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\range.py", line 347, in get_loc
+    raise KeyError(key) from err
+KeyError: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\range.py", line 345, in get_loc
+    return self._range.index(new_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: -1 is not in range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 656, in fangwen
+    last = output.loc[output_row - 1, key_] if output_row > 0 or len(output.columns) < 3 else True  # output_row == 0 Î´¸³Öµ->False
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexing.py", line 1096, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3877, in _get_value
+    row = self.index.get_loc(index)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\range.py", line 347, in get_loc
+    raise KeyError(key) from err
+KeyError: -1
+
+
+https://baike.baidu.com/item/ËæÖİÊĞ½»Í¨ÔËÊä¾Ö?force=1 Ö°Îñ£º¾Ö³¤¡¢µ³×éÊé¼Ç	2024-02-01 16:15 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\range.py", line 345, in get_loc
+    return self._range.index(new_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 0 is not in range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 652, in fangwen
+    last = output.loc[output_row, key_]
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexing.py", line 1096, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3877, in _get_value
+    row = self.index.get_loc(index)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\range.py", line 347, in get_loc
+    raise KeyError(key) from err
+KeyError: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\range.py", line 345, in get_loc
+    return self._range.index(new_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: -1 is not in range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 656, in fangwen
+    last = output.loc[output_row - 1, key_] if output_row > 0 or len(output.columns) < 3 else True  # output_row == 0 Î´¸³Öµ->False
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexing.py", line 1096, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3877, in _get_value
+    row = self.index.get_loc(index)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\range.py", line 347, in get_loc
+    raise KeyError(key) from err
+KeyError: -1
+
+
+https://baike.baidu.com/item/ËæÖİÊĞ½»Í¨ÔËÊä¾Ö?force=1 ĞÕÃû£ºÖì¾ü	2024-02-01 16:42 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Ö°Î»'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 666, in fangwen
+    output_ref, ref_row = insert_ref(refs, output.loc[output_row, 'ĞÕÃû'], output.loc[output_row, 'Ö°Î»'], output_ref, ref_row)
+                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexing.py", line 1096, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3870, in _get_value
+    series = self._get_item_cache(col)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 4255, in _get_item_cache
+    loc = self.columns.get_loc(item)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Ö°Î»'
+
+
+https://baike.baidu.com/item/ÉÇÍ·ÊĞ½»Í¨ÔËÊä¾Ö?force=1 £¨ÒÔÉÏÊı¾İÀ´×ÔÉÇÍ·ÊĞ½»Í¨ÔËÊä¾ÖÍøÕ¾£¬½ØÖ¹2023Äê6ÔÂ21ÈÕ£©	2024-02-01 17:29 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 714, in fangwen
+    if ('£¬' in spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[0][:-1]) and len(re.findall('£¬', name)) == 1 and ('£º' not in name): #update 2.1 name->spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[0]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/·À³Ç¸ÛÊĞ½»Í¨ÔËÊä¾Ö?force=1 ¸±¾Ö³¤£ºÕÅ´«ÒÇ
+·Ö¹ÜÒßÇé·À¿Ø¡¢½»Í¨ÔËÊä·şÎñÒµ·¢Õ¹¡¢µÀÂ·ÔËÊä¹ÜÀí¡¢Ë®Â·ÔËÊä¹ÜÀí¡¢º½µÀÎ¬»¤Óë¹ÜÀí¡¢Óæ´¬¼ì²âÓë¼à¹Ü¡¢³ÇÏç½»Í¨Ò»Ìå»¯½¨Éè¡¢½»Í¨¿Æ¼¼¡¢½ÌÓıĞÅÏ¢»¯½¨ÉèµÈ¹¤×÷£¬ÒÔ¼°·Ö¹ÜÁìÓò¡¢¿ÆÊÒºÍµ¥Î»°²È«Éú²úµÈ¹¤×÷£¬Ğ­µ÷ÁªÏµ½»Í¨Ñ§»á¡¢Ğ­»á¡¢ĞĞÒµµ³Î¯
+·Ö¹Ü¾Ö×ÛºÏ¿Æ(½»Í¨ÔËÊäĞĞÒµ¹ÜÀí)¡¢ÊĞ½»Í¨ÔËÊä×ÛºÏÖ´·¨Ö§¶ÓµÀÂ·ÔËÊä¿Æ¡¢Ë®Â·ÔËÊä¿Æ¡¢µÚÎå´ó¶Ó¡¢ÊĞ½»Í¨ÔËÊäĞĞÒµÃ¬¶Ü¾À·×µ÷½âÖĞĞÄ¡£ÁªÏµ·À³ÇÇø½»Í¨ÔËÊä¾Ö¹¤×÷	2024-02-01 17:34 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 723, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('×ÜÎ¯Ô±»á¾Ö×é¸±Ö÷ÈÎ±à¼­Ôº³¤Êé´¦¹¤¼Ç')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 725, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1¸±¾Ö³¤XXX£º#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/Ã¼É½ÊĞ½»Í¨ÔËÊä¾Ö?force=1 £¨Óë¾Öµ³×éÊé¼Ç·¶´¿ÎÄÍ¬Ö¾»¥ÎªAB¸Ú¡££©	2024-02-01 17:43 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 714, in fangwen
+    if ('£¬' in spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[:1][:-1]) and len(re.findall('£¬', name)) == 1 and ('£º' not in name): #update 2.1 name->spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[0]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/Ã¼É½ÊĞ½»Í¨ÔËÊä¾Ö?force=1 £¨Óë¾Öµ³×é¸±Êé¼Ç¡¢¸±¾Ö³¤º«½ÜÍ¬Ö¾»¥ÎªAB¸Ú¡££©	2024-02-01 17:43 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 714, in fangwen
+    if ('£¬' in spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[:1][:-1]) and len(re.findall('£¬', name)) == 1 and ('£º' not in name): #update 2.1 name->spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[0]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/Ã¼É½ÊĞ½»Í¨ÔËÊä¾Ö?force=1 £¨Óë¾Öµ³×é³ÉÔ±¡¢¸±¾Ö³¤ÁõË§Í¬Ö¾»¥ÎªAB¸Ú¡££©	2024-02-01 17:43 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 714, in fangwen
+    if ('£¬' in spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[:1][:-1]) and len(re.findall('£¬', name)) == 1 and ('£º' not in name): #update 2.1 name->spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[0]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/Ã¼É½ÊĞ½»Í¨ÔËÊä¾Ö?force=1 £¨Óë¾Öµ³×é³ÉÔ±¡¢»ú¹Øµ³Î¯Êé¼ÇÑî¾üÍ¬Ö¾»¥ÎªAB¸Ú¡££©	2024-02-01 17:43 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 714, in fangwen
+    if ('£¬' in spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[:1][:-1]) and len(re.findall('£¬', name)) == 1 and ('£º' not in name): #update 2.1 name->spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[0]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/Ã¼É½ÊĞ½»Í¨ÔËÊä¾Ö?force=1 £¨ÓëÃ¼É½ÊĞ¼ÍÎ¯¼àÎ¯ÅÉ×¤ÊĞ½»Í¨¾Ö¼Í¼ì¼à²ì×é×é³¤¡¢ÊĞ½»Í¨ÔËÊä¾Öµ³×é³ÉÔ±ÕÔÃôÍ¬Ö¾»¥ÎªAB¸Ú¡££©	2024-02-01 17:43 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 714, in fangwen
+    if ('£¬' in spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[:1][:-1]) and len(re.findall('£¬', name)) == 1 and ('£º' not in name): #update 2.1 name->spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[0]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/Ã¼É½ÊĞ½»Í¨ÔËÊä¾Ö?force=1 £¨Óë¾Öµ³×é³ÉÔ±¡¢ÊĞ½»Í¨½¨ÉèÖĞĞÄÖ÷ÈÎÄ²µÂÃ÷»¥ÎªAB¸Ú¡££©	2024-02-01 17:43 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 714, in fangwen
+    if ('£¬' in spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[:1][:-1]) and len(re.findall('£¬', name)) == 1 and ('£º' not in name): #update 2.1 name->spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[0]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/Ã¼É½ÊĞ½»Í¨ÔËÊä¾Ö?force=1 £¨Óë¾Öµ³×é³ÉÔ±¡¢¸±¾Ö³¤ÁõË§Í¬Ö¾»¥ÎªAB¸Ú¡££©	2024-02-01 17:43 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 714, in fangwen
+    if ('£¬' in spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[:1][:-1]) and len(re.findall('£¬', name)) == 1 and ('£º' not in name): #update 2.1 name->spillt(name, ['·Ö¹¤', '¹¤×÷', 'Ö÷¹Ü', '·Ö¹Ü'])[0]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/¹ãÖİÊĞÔö³ÇÇø½»Í¨ÔËÊä¾Ö?force=1 Èı¼¶µ÷ÑĞÔ±£ºÖÓÈêÇå£¬Ğ­ÖúÀµ²®ÖÛ¾Ö³¤·Ö¹Ü×¨Ïî¹¤×÷	2024-02-01 18:37 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 723, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('×ÜÎ¯Ô±»á¾Ö×é¸±Ö÷ÈÎ±à¼­Ôº³¤Êé´¦¹¤¼Ç')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 725, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1¸±¾Ö³¤XXX£º#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/¹ãÖİÊĞÔö³ÇÇø½»Í¨ÔËÊä¾Ö?force=1 ËÄ¼¶µ÷ÑĞÔ±£ºÓàÎ°±ê£¬Ğ­ÖúÀµ²®ÖÛ¾Ö³¤·Ö¹Ü×¨Ïî¹¤×÷	2024-02-01 18:37 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 723, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('×ÜÎ¯Ô±»á¾Ö×é¸±Ö÷ÈÎ±à¼­Ôº³¤Êé´¦¹¤¼Ç')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 725, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1¸±¾Ö³¤XXX£º#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%B8%82%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E5%B1%80?force=1 ¸±¾Ö³¤£ºÕÅ´«ÒÇ
+·Ö¹ÜÒßÇé·À¿Ø¡¢½»Í¨ÔËÊä·şÎñÒµ·¢Õ¹¡¢µÀÂ·ÔËÊä¹ÜÀí¡¢Ë®Â·ÔËÊä¹ÜÀí¡¢º½µÀÎ¬»¤Óë¹ÜÀí¡¢Óæ´¬¼ì²âÓë¼à¹Ü¡¢³ÇÏç½»Í¨Ò»Ìå»¯½¨Éè¡¢½»Í¨¿Æ¼¼¡¢½ÌÓıĞÅÏ¢»¯½¨ÉèµÈ¹¤×÷£¬ÒÔ¼°·Ö¹ÜÁìÓò¡¢¿ÆÊÒºÍµ¥Î»°²È«Éú²úµÈ¹¤×÷£¬Ğ­µ÷ÁªÏµ½»Í¨Ñ§»á¡¢Ğ­»á¡¢ĞĞÒµµ³Î¯
+·Ö¹Ü¾Ö×ÛºÏ¿Æ(½»Í¨ÔËÊäĞĞÒµ¹ÜÀí)¡¢ÊĞ½»Í¨ÔËÊä×ÛºÏÖ´·¨Ö§¶ÓµÀÂ·ÔËÊä¿Æ¡¢Ë®Â·ÔËÊä¿Æ¡¢µÚÎå´ó¶Ó¡¢ÊĞ½»Í¨ÔËÊäĞĞÒµÃ¬¶Ü¾À·×µ÷½âÖĞĞÄ¡£ÁªÏµ·À³ÇÇø½»Í¨ÔËÊä¾Ö¹¤×÷	2024-02-02 09:41 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 723, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('×ÜÎ¯Ô±»á¾Ö×é¸±Ö÷ÈÎ±à¼­Ôº³¤Êé´¦¹¤¼Ç')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 726, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1¸±¾Ö³¤XXX£º#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 728, in fangwen
+    mess = spillt(name, re.findall('[\W]', name))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\re\__init__.py", line 216, in findall
+    return _compile(pattern, flags).findall(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'list'
+
+
+https://baike.baidu.com/item/%E7%9C%89%E5%B1%B1%E5%B8%82%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E5%B1%80?force=1 Ò»¼¶µ÷ÑĞÔ±ÁõĞ¡Áæ
+Ö°Ôğ£º¸ºÔğ¸ßËÙ¹«Â·½¨Éè¹ÜÀí¡¢Ã¼É½»·³Ç¹«Â·ÄÏ»·Ïß½¨Éè¹ÜÀí¹¤×÷¡£·Ö¹ÜÊĞ¸ßËÙ¹«Â·½¨ÉèÁìµ¼Ğ¡×é°ì¹«ÊÒ	2024-02-02 11:33 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 729, in fangwen
+    elif len(catch_xingming(name1)) <= 3 or shortjob(name1):  # ¼´ÊÇ²»·Ö¶Î´ó³¤¾ä
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 272, in catch_xingming
+    if nm.index(word) in [2, 3] and len(set(word[:3] & set('Ò»¶şÈıËÄÎåÁù¼¶µ³¾ÖÎ¯Ô±¹«¹²½»Í¨ÔËÊä×Ü¸±Ö÷Ï¯Ê×Çø×é»á'))) < 2:
+                                            ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for &: 'str' and 'set'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾Öµ³×éÊé¼Ç	2024-02-02 12:04 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 711, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾Öµ³×é³ÉÔ±¡¢¾Ö³¤
+¸ºÔğµ³µÄ½¨Éè¡¢×éÖ¯ÈËÊÂ¡¢ÒâÊ¶ĞÎÌ¬¡¢Á®Õş½¨Éè¡¢ĞÅ·ÃÎÈ¶¨¡¢ÍøÂç°²È«¡¢ÍË¸ÉÀÏÁä¹Ø¹¤Î¯¡¢Í³Õ½¡¢Ë«Óµ¡¢¹¤»á¡¢¸¾Î¯»á¡¢¹²ÇàÍÅ¡¢²ÆÎñ¡¢Ë®ÀûÕù×ÊÁ¢Ïî¡¢Í¶×Ê¼Æ»®¡¢Éó¼Æ¡¢ºÓµÀÊÂÎñ¡¢Ë®×ÊÔ´±£»¤Óë¹ÜÀí¡¢»·±£¶½²ì¡¢½ÚË®ĞÍÉç»á½¨Éè¡¢Ë®Àû¹¤³Ì½¨Éè¡¢Ë®ÎÄºÍË®ºµÔÖº¦·ÀÓù¡¢³ÇÊĞÆ·ÖÊÌáÉı¡¢Ë®Àû¿Æ¼¼ºÍ¶ÔÍâ½»Á÷µÈ·½Ãæ¹¤×÷
+·Ö¹Ü¾Öµ³Õş°ì¡¢²ÆÎñÉó¼Æ¿Æ¡¢Ë®ÉúÌ¬ºÍºÓ³¤ÖÆ¿Æ¡¢ºÓµÀÊÂÎñÖĞĞÄ¡¢Ë®ÎÄË®×ÊÔ´¿Æ¡¢Ë®ÎÄÓëË®ºµÔÖº¦·ÀÓùÖĞĞÄ	2024-02-02 12:04 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 711, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾Öµ³×éÊé¼Ç	2024-02-02 12:07 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 715, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾Öµ³×é³ÉÔ±¡¢¾Ö³¤
+¸ºÔğµ³µÄ½¨Éè¡¢×éÖ¯ÈËÊÂ¡¢ÒâÊ¶ĞÎÌ¬¡¢Á®Õş½¨Éè¡¢ĞÅ·ÃÎÈ¶¨¡¢ÍøÂç°²È«¡¢ÍË¸ÉÀÏÁä¹Ø¹¤Î¯¡¢Í³Õ½¡¢Ë«Óµ¡¢¹¤»á¡¢¸¾Î¯»á¡¢¹²ÇàÍÅ¡¢²ÆÎñ¡¢Ë®ÀûÕù×ÊÁ¢Ïî¡¢Í¶×Ê¼Æ»®¡¢Éó¼Æ¡¢ºÓµÀÊÂÎñ¡¢Ë®×ÊÔ´±£»¤Óë¹ÜÀí¡¢»·±£¶½²ì¡¢½ÚË®ĞÍÉç»á½¨Éè¡¢Ë®Àû¹¤³Ì½¨Éè¡¢Ë®ÎÄºÍË®ºµÔÖº¦·ÀÓù¡¢³ÇÊĞÆ·ÖÊÌáÉı¡¢Ë®Àû¿Æ¼¼ºÍ¶ÔÍâ½»Á÷µÈ·½Ãæ¹¤×÷
+·Ö¹Ü¾Öµ³Õş°ì¡¢²ÆÎñÉó¼Æ¿Æ¡¢Ë®ÉúÌ¬ºÍºÓ³¤ÖÆ¿Æ¡¢ºÓµÀÊÂÎñÖĞĞÄ¡¢Ë®ÎÄË®×ÊÔ´¿Æ¡¢Ë®ÎÄÓëË®ºµÔÖº¦·ÀÓùÖĞĞÄ
+¶Ô¿ÚÁªÏµÎÄÁú½ÖµÀ¡¢ÓÀĞÂÕò¡¢ÖĞ·åÕò¡¢Ê¯½ÇÕò¡¢×­ÌÁÕò¡¢¹ù·öÕò	2024-02-02 12:07 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 715, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾Öµ³×é³ÉÔ±¡¢¸±¾Ö³¤
+¸ºÔğË®ÀûÍÑÆ¶¹¥¼á¡¢Ïç´åÕñĞË¡¢Á¸Ê³°²È«Ê×³¤ÔğÈÎÖÆ¡¢Ğ¡ĞÍË®Àû²úÈ¨ÖÆ¶È¸Ä¸ï¡¢Å©ÒµË®¼Û¸Ä¸ï¡¢´åÕò¹©Ë®¡¢Ë®Àû¹¤³Ì½¨Éè¡¢Ë®µç¹¤³ÌÔËĞĞ¹ÜÀí¡¢Ë®·¨¹æĞû´«¡¢Ë®ĞĞÕşÖ´·¨
+·Ö¹ÜË®Àû×ÛºÏĞĞÕşÖ´·¨´ó¶Ó¡¢Ë®ÀûË®µç¹¤³ÌÔËĞĞ·şÎñÕ¾¡¢´åÕò¹©Ë®ÖĞĞÄ£¨·öÆ¶¿Æ£©¡£ÁªÏµĞÀÓí½¨Öş¹«Ë¾
+¶Ô¿ÚÁªÏµ¹ÅÄÏ½ÖµÀ¡¢Èı½ÇÕò¡¢ºáÉ½Õò¡¢¶«ÏªÕò¡¢¶¡É½Õò¡¢·ö»¶Õò¡¢ĞÂÊ¢Õò	2024-02-02 12:07 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 715, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾Öµ³×é³ÉÔ±¡¢¸±¾Ö³¤
+¸ºÔğË®ÀûÏîÄ¿Ç°ÆÚ¹¤×÷¡¢ÖØµãË®Àû¹¤³Ì½¨Éè¹ÜÀí¡¢Ë®ÀûĞĞÒµ×ÜÌå¹æ»®¡¢ÉæË®ÏîÄ¿ÕĞÉÌÒı×Ê¡¢Ë®ĞĞÕşÉóÅú¡¢Ë®Àû¹¤³ÌÖÊÁ¿¼à¶½¡¢Ë®Àû°²È«¡¢Ë®ÖÊ¼à²â¡¢Ë®Àû¹¤³ÌÒÆÃñºóÆÚ·ö³Ö¡¢Ë®ÍÁ±£³Ö¡¢Ë®ÀûÍ³¼ÆµÈ¹¤×÷
+·Ö¹Ü¹æ»®½¨Éè¿Æ¡¢Ë®Àû¹¤³Ì¹ÜÀíÓëÒÆÃñ¿Æ£¨ÕşÎñ·şÎñ¿Æ£©¡¢Ë®ÀûË®µç¹¤³Ì½¨Éè·şÎñÕ¾¡¢Ë®ÖÊ¼à²âÖĞĞÄ¡¢Ë®Àû¹¤³Ì½¨ÉèÖÊÁ¿Óë°²È«·şÎñÖĞĞÄ¡¢ÒÆÃñ¹¤×÷ÖĞĞÄ¡¢Ë®ÍÁ±£³ÖÕ¾¡£ÁªÏµ½­ºÓ¹«Ë¾¡¢ÈğÓíÉè¼Æ¹«Ë¾¡¢Ë®ÀûË®µçÑ§»á
+¶Ô¿ÚÁªÏµÈı½­½ÖµÀ¡¢´òÍ¨Õò¡¢Ê¯º¾Õò¡¢°²ÎÈÕò¡¢¸ÏË®Õò¡¢ÓÀ³ÇÕò¡¢Â¡Ê¢Õò	2024-02-02 12:07 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 715, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾Ö¶ş¼¶µ÷ÑĞÔ±
+Ğ­Öú¿ªÕ¹Ë®Ô´¹¤³Ì½¨ÉèÏîÄ¿£¨Õ¼£©ÓÃµØĞ­µ÷¡¢ÖØµãË®Àû¹¤³ÌµÄÇ°ÆÚ³ï±¸ºÍÕ÷µØÒÆÃñµÈ¹¤×÷	2024-02-02 12:07 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 715, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾ÖÈı¼¶µ÷ÑĞÔ±
+Ğ­Öú×öºÃºÓ³¤ÖÆºÍË®ÉúÌ¬½¨Éè¡¢µ³µÄÍË¸ÉÀÏÁä¹Ø¹¤Î¯¡¢Í³Õ½¡¢Ë«ÓµµÈ¹¤×÷	2024-02-02 12:07 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 715, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾ÖËÄ¼¶µ÷ÑĞÔ±
+Ğ­Öú×öºÃ¹¤»á¡¢ÍÅÎ¯¡¢¸¾ÁªºÍÉ¨ºÚ³ı¶ñ×¨ÏîĞĞ¶¯¹¤×÷¡£ÁªÏµÇøĞ¡Ë®µçĞ­»á	2024-02-02 12:07 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 715, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾ÖËÄ¼¶µ÷ÑĞÔ±
+Ğ­Öú¿ªÕ¹Ë®·¨¹æĞû´«¡¢Ë®ĞĞÕşÖ´·¨¹¤×÷	2024-02-02 12:07 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 715, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÖØÇìÊĞôë½­ÇøË®Àû¾Ö?force=1 Ö°Î»£ºÇøË®Àû¾Öµ³×éÊé¼Ç	2024-02-02 12:11 Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ĞÕÃû'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 715, in fangwen
+    output_ref.loc[output_ref['ĞÕÃû']==output.loc[0, 'ĞÕÃû'], 'Ö°Î»'] = val
+                   ~~~~~~~~~~^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ĞÕÃû'
+
+
+https://baike.baidu.com/item/ÉÇÍ·ÊĞ½»Í¨ÔËÊä¾Ö?force=1 £¨ÒÔÉÏÊı¾İÀ´×ÔÉÇÍ·ÊĞ½»Í¨ÔËÊä¾ÖÍøÕ¾£¬½ØÖ¹2023Äê6ÔÂ21ÈÕ£©	2024-02-02 12:45 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 823, in fangwen
+    if len(max(spillt(job.replace(°Ù¿Æ±êÌâ, '').replace('½»Í¨ÔËÊä¾Ö', ''), '¡¢£¬'), key=len)) > 7:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: max() arg is an empty sequence
+
+
+https://baike.baidu.com/item/Ñô½­ÊĞ½»Í¨ÔËÊä¾Ö?force=1 ¾Ö³¤£º	2024-02-02 12:47 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 773, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('×ÜÎ¯Ô±»á¾Ö×é¸±Ö÷ÈÎ±à¼­Ôº³¤Êé´¦¹¤¼Ç')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 776, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1¸±¾Ö³¤XXX£º#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 781, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3], name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/³É¶¼ÊĞ½»Í¨ÔËÊä¾Ö?force=1 ³É¶¼ÊĞ½»Í¨ÔËÊä¾Ö¸±¾Ö³¤£ºÔø»¢£¨Õı¾Ö³¤¼¶£©	2024-02-02 12:56 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 773, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('×ÜÎ¯Ô±»á¾Ö×é¸±Ö÷ÈÎ±à¼­Ôº³¤Êé´¦¹¤¼Ç')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 776, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1¸±¾Ö³¤XXX£º#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 781, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3], name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/ÁÙ²×ÊĞ½»Í¨ÔËÊä¾Ö?force=1 ¾Ö³¤£º	2024-02-02 13:07 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 773, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('×ÜÎ¯Ô±»á¾Ö×é¸±Ö÷ÈÎ±à¼­Ôº³¤Êé´¦¹¤¼Ç')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 776, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1¸±¾Ö³¤XXX£º#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 781, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3], name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/É½ÄÏÊĞ½»Í¨ÔËÊä¾Ö?force=1 ¾Ö³¤£º£¨¿ÕÈ±£©	2024-02-02 13:10 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 773, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('×ÜÎ¯Ô±»á¾Ö×é¸±Ö÷ÈÎ±à¼­Ôº³¤Êé´¦¹¤¼Ç')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 776, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1¸±¾Ö³¤XXX£º#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 781, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3], name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/¹ãÖİÊĞÔö³ÇÇø½»Í¨ÔËÊä¾Ö?force=1 Èı¼¶µ÷ÑĞÔ±£ºÖÓÈêÇå£¬Ğ­ÖúÀµ²®ÖÛ¾Ö³¤·Ö¹Ü×¨Ïî¹¤×÷	2024-02-02 13:56 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 773, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('×ÜÎ¯Ô±»á¾Ö×é¸±Ö÷ÈÎ±à¼­Ôº³¤Êé´¦¹¤¼Ç')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 776, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1¸±¾Ö³¤XXX£º#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 781, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3], name))[0]#notdone
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/¹ãÖİÊĞÔö³ÇÇø½»Í¨ÔËÊä¾Ö?force=1 ËÄ¼¶µ÷ÑĞÔ±£ºÓàÎ°±ê£¬Ğ­ÖúÀµ²®ÖÛ¾Ö³¤·Ö¹Ü×¨Ïî¹¤×÷	2024-02-02 13:56 Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 773, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('×ÜÎ¯Ô±»á¾Ö×é¸±Ö÷ÈÎ±à¼­Ôº³¤Êé´¦¹¤¼Ç')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 776, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1¸±¾Ö³¤XXX£º#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\°Ù¿Æ²É¼¯-µØ¼¶ÊĞ\²É¼¯Ä³ÍøÒ³µÄ°Ù¿ÆÒ³ÃæµÄÁìµ¼Ãûµ¥.py", line 781, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3], name))[0]#notdone
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 é©¬ç‰ååŒå¿—ï¼šè´Ÿè´£å…šåŠ¡å·¥ä½œ	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 830, in fangwen
+    if re.match('[\W]', job[0]):
+                        ~~~^^^
+IndexError: string index out of range
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 æé“å¼ºåŒå¿—ï¼šååŠ©å±€é•¿æŠ“å¥½æ—¥å¸¸ä¸šåŠ¡å·¥ä½œï¼ˆå±€é•¿å¤–å‡ºï¼Œç”±æé“å¼ºåŒå¿—ä¸»æŒå·¥ä½œï¼‰ï¼Œè´Ÿè´£é«˜é€Ÿå…¬è·¯å»ºè®¾ç®¡ç†ï¼Œè´¢åŠ¡ç®¡ç†ã€æ°‘æ—å®—æ•™åŠæŒ‚èŒæ¸¤æµ·æ–°åŒºå·¥ä½œç­‰ã€‚åˆ†ç®¡é«˜ç®¡å±€ã€è´¢åŠ¡ç§‘åŠæ¸¤æµ·æ–°åŒºåˆ†å·¥å·¥ä½œç­‰	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 èµµæ™¯æ˜åŒå¿—ï¼šè´Ÿè´£æ¸¯å£å»ºè®¾åŠæ°´è·¯è¿è¾“ã€å·¥ç¨‹ç›‘ç†ã€å®ä¸šå‘å±•ã€å·¥ä¼šã€å¦‡å§”ä¼šã€è®¡åˆ’ç”Ÿè‚²ç­‰å·¥ä½œã€‚åˆ†ç®¡å®ä¸šå…¬å¸ã€å·¥ä¼šã€ç›‘ç†ä¸­å¿ƒã€è®¡ç”ŸåŠã€æ¸¯èˆªå±€ç­‰	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 å¼ æ°åŒå¿—ï¼šè´Ÿè´£è¿è¾“è¡Œä¸šç®¡ç†ã€åœ°æ–¹é“è·¯ã€åŸå¸‚å…¬äº¤ã€äººäº‹åŠ³åŠ¨ã€æœºå…³å…šå»ºã€ç²¾ç¥æ–‡æ˜å»ºè®¾ç­‰å·¥ä½œã€‚åˆ†ç®¡äººäº‹åŠ³åŠ¨ç§‘ã€å…šåŠå®¤ã€å›¢å§”ã€è¿ç®¡å¤„ã€åœ°é“å¤„ã€å…¬äº¤å…¬å¸ç­‰	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 å­™å‰å…ƒåŒå¿—ï¼šè´Ÿè´£çºªæ£€ç›‘å¯Ÿã€ä¿¡è®¿å—ç†ã€è¡Œé£å»ºè®¾ã€æ”¿åŠ¡ç£å¯Ÿç­‰å·¥ä½œï¼ŒååŠ©å±€é•¿æŠ“å†…éƒ¨å®¡è®¡å·¥ä½œã€‚åˆ†ç®¡çºªæ£€ç»„ã€ç›‘å¯Ÿå®¤ã€è¡Œé£åŠã€å®¡è®¡ç§‘ç­‰	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 é«˜ä¹æ—åŒå¿—ï¼šè´Ÿè´£äº¤é€šæˆ˜å¤‡ï¼ˆæ­¦è£…ï¼‰ã€è·¯æ¡¥å·¥ç¨‹å»ºè®¾ã€ææ–™ä¾›åº”ã€å·¥ç¨‹è®¾è®¡ç­‰å·¥ä½œã€‚åˆ†ç®¡è·¯æ¡¥å…¬å¸ã€ææ–™å¤„ã€è®¾è®¡é™¢ã€è€å¹²éƒ¨ç§‘ã€æˆ˜å¤‡åŠç­‰	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 éƒ­è£æ˜ŒåŒå¿—ï¼šè´Ÿè´£æœºå…³å·¥ä½œã€åå‹¤äº‹åŠ¡ï¼Œäº¤é€šæ³•è§„ã€å®‰å…¨ç¨³å®šã€åº”æ€¥å·¥ä½œã€ç»¼åˆæ²»ç†ã€é€šè¡Œè´¹å¾ç®¡ã€ä¿¡è®¿ç­‰å·¥ä½œã€‚åˆ†ç®¡åŠå…¬å®¤ã€æ³•è§„ç§‘ã€äº‹åŠ¡å¤„ã€é€šç®¡å¤„ç­‰	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 åˆ˜ä¿Šå¾·åŒå¿—ï¼šè´Ÿè´£è®¡åˆ’ç»Ÿè®¡ã€å¹²çº¿å…¬è·¯å»ºå…»ç®¡ã€ç§‘æŠ€æ•™è‚²ç­‰å·¥ä½œï¼ŒååŠ©å±€é•¿æŠ“å¥½å·¥ç¨‹ç›‘ç£ï¼ŒååŠ©æé“å¼ºåŒå¿—æŠ“å¥½é«˜é€Ÿå…¬è·¯å»ºè®¾å·¥ä½œã€‚åˆ†ç®¡è®¡ç»Ÿç§‘ã€å…¬è·¯å¤„ã€å·¥ç®¡ç§‘ã€ç§‘æ•™ç§‘ã€ç›‘ç£å¤„ã€èŒå·¥å­¦æ ¡ç­‰	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 å‘¨ååŒå¿—ï¼šååŠ©æé“å¼ºåŒå¿—æŠ“å¥½é«˜é€Ÿå…¬è·¯å»ºè®¾ç®¡ç†å·¥ä½œï¼Œåè°ƒå¤§å¹¿é«˜é€Ÿå»ºè®¾å·¥ä½œï¼Œè´Ÿè´£ä¼ä¸šæ”¹åˆ¶åæœŸå·¥ä½œï¼Œåè°ƒå¯¹å¤–å®£ä¼ å·¥ä½œã€‚åˆ†ç®¡ä¼æ”¹åŠå’Œé«˜ç®¡å±€åˆ†å·¥çš„ç§‘å®¤ç­‰	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 830, in fangwen
+    if re.match('[\W]', job[0]):
+                        ~~~^^^
+IndexError: string index out of range
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 éƒ‘å¿ ä¿¡åŒå¿—ï¼šè´Ÿè´£è°ƒæŸ¥ç ”ç©¶å’Œå±€é•¿äº¤åŠçš„å…¶ä»–å·¥ä½œ	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 830, in fangwen
+    if re.match('[\W]', job[0]):
+                        ~~~^^^
+IndexError: string index out of range
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 è‘£ç»§æºåŒå¿—ï¼šè´Ÿè´£è°ƒæŸ¥ç ”ç©¶å’Œå±€é•¿äº¤åŠçš„å…¶ä»–å·¥ä½œ	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 830, in fangwen
+    if re.match('[\W]', job[0]):
+                        ~~~^^^
+IndexError: string index out of range
+
+
+https://baike.baidu.com/item/æ²§å·å¸‚äº¤é€šè¿è¾“å±€?force=1 å­™ä¸–ååŒå¿—ï¼šè´Ÿè´£å…¬äº¤å…¬å¸å…¨é¢å·¥ä½œ	2024-02-02 16:46 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 830, in fangwen
+    if re.match('[\W]', job[0]):
+                        ~~~^^^
+IndexError: string index out of range
+
+
+https://baike.baidu.com/item/%E6%B2%A7%E5%B7%9E%E5%B8%82%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E5%B1%80?force=1 æé“å¼ºåŒå¿—ï¼šååŠ©å±€é•¿æŠ“å¥½æ—¥å¸¸ä¸šåŠ¡å·¥ä½œï¼ˆå±€é•¿å¤–å‡ºï¼Œç”±æé“å¼ºåŒå¿—ä¸»æŒå·¥ä½œï¼‰ï¼Œè´Ÿè´£é«˜é€Ÿå…¬è·¯å»ºè®¾ç®¡ç†ï¼Œè´¢åŠ¡ç®¡ç†ã€æ°‘æ—å®—æ•™åŠæŒ‚èŒæ¸¤æµ·æ–°åŒºå·¥ä½œç­‰ã€‚åˆ†ç®¡é«˜ç®¡å±€ã€è´¢åŠ¡ç§‘åŠæ¸¤æµ·æ–°åŒºåˆ†å·¥å·¥ä½œç­‰	2024-02-02 16:54 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/%E6%B2%A7%E5%B7%9E%E5%B8%82%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E5%B1%80?force=1 èµµæ™¯æ˜åŒå¿—ï¼šè´Ÿè´£æ¸¯å£å»ºè®¾åŠæ°´è·¯è¿è¾“ã€å·¥ç¨‹ç›‘ç†ã€å®ä¸šå‘å±•ã€å·¥ä¼šã€å¦‡å§”ä¼šã€è®¡åˆ’ç”Ÿè‚²ç­‰å·¥ä½œã€‚åˆ†ç®¡å®ä¸šå…¬å¸ã€å·¥ä¼šã€ç›‘ç†ä¸­å¿ƒã€è®¡ç”ŸåŠã€æ¸¯èˆªå±€ç­‰	2024-02-02 16:54 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/%E6%B2%A7%E5%B7%9E%E5%B8%82%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E5%B1%80?force=1 å¼ æ°åŒå¿—ï¼šè´Ÿè´£è¿è¾“è¡Œä¸šç®¡ç†ã€åœ°æ–¹é“è·¯ã€åŸå¸‚å…¬äº¤ã€äººäº‹åŠ³åŠ¨ã€æœºå…³å…šå»ºã€ç²¾ç¥æ–‡æ˜å»ºè®¾ç­‰å·¥ä½œã€‚åˆ†ç®¡äººäº‹åŠ³åŠ¨ç§‘ã€å…šåŠå®¤ã€å›¢å§”ã€è¿ç®¡å¤„ã€åœ°é“å¤„ã€å…¬äº¤å…¬å¸ç­‰	2024-02-02 16:54 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/%E6%B2%A7%E5%B7%9E%E5%B8%82%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E5%B1%80?force=1 å­™å‰å…ƒåŒå¿—ï¼šè´Ÿè´£çºªæ£€ç›‘å¯Ÿã€ä¿¡è®¿å—ç†ã€è¡Œé£å»ºè®¾ã€æ”¿åŠ¡ç£å¯Ÿç­‰å·¥ä½œï¼ŒååŠ©å±€é•¿æŠ“å†…éƒ¨å®¡è®¡å·¥ä½œã€‚åˆ†ç®¡çºªæ£€ç»„ã€ç›‘å¯Ÿå®¤ã€è¡Œé£åŠã€å®¡è®¡ç§‘ç­‰	2024-02-02 16:54 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/%E6%B2%A7%E5%B7%9E%E5%B8%82%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E5%B1%80?force=1 é«˜ä¹æ—åŒå¿—ï¼šè´Ÿè´£äº¤é€šæˆ˜å¤‡ï¼ˆæ­¦è£…ï¼‰ã€è·¯æ¡¥å·¥ç¨‹å»ºè®¾ã€ææ–™ä¾›åº”ã€å·¥ç¨‹è®¾è®¡ç­‰å·¥ä½œã€‚åˆ†ç®¡è·¯æ¡¥å…¬å¸ã€ææ–™å¤„ã€è®¾è®¡é™¢ã€è€å¹²éƒ¨ç§‘ã€æˆ˜å¤‡åŠç­‰	2024-02-02 16:54 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/%E6%B2%A7%E5%B7%9E%E5%B8%82%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E5%B1%80?force=1 éƒ­è£æ˜ŒåŒå¿—ï¼šè´Ÿè´£æœºå…³å·¥ä½œã€åå‹¤äº‹åŠ¡ï¼Œäº¤é€šæ³•è§„ã€å®‰å…¨ç¨³å®šã€åº”æ€¥å·¥ä½œã€ç»¼åˆæ²»ç†ã€é€šè¡Œè´¹å¾ç®¡ã€ä¿¡è®¿ç­‰å·¥ä½œã€‚åˆ†ç®¡åŠå…¬å®¤ã€æ³•è§„ç§‘ã€äº‹åŠ¡å¤„ã€é€šç®¡å¤„ç­‰	2024-02-02 16:54 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/%E6%B2%A7%E5%B7%9E%E5%B8%82%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E5%B1%80?force=1 åˆ˜ä¿Šå¾·åŒå¿—ï¼šè´Ÿè´£è®¡åˆ’ç»Ÿè®¡ã€å¹²çº¿å…¬è·¯å»ºå…»ç®¡ã€ç§‘æŠ€æ•™è‚²ç­‰å·¥ä½œï¼ŒååŠ©å±€é•¿æŠ“å¥½å·¥ç¨‹ç›‘ç£ï¼ŒååŠ©æé“å¼ºåŒå¿—æŠ“å¥½é«˜é€Ÿå…¬è·¯å»ºè®¾å·¥ä½œã€‚åˆ†ç®¡è®¡ç»Ÿç§‘ã€å…¬è·¯å¤„ã€å·¥ç®¡ç§‘ã€ç§‘æ•™ç§‘ã€ç›‘ç£å¤„ã€èŒå·¥å­¦æ ¡ç­‰	2024-02-02 16:54 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 829, in fangwen
+    job = matchjob(job) if min([len(x) for x in spillt(matchjob(job), re.findall('\W', job))]) <= len(shortjob(job)) + 8 else shortjob(job)# edit 2.2
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/æ™‹ä¸­å¸‚äº¤é€šè¿è¾“å±€?force=1 æ™‹ä¸­å¸‚äº¤é€šè¿è¾“å±€å±€é•¿ï¼ˆç©ºç¼ºï¼‰	2024-02-02 17:01 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 863, in fangwen
+    if (not red) and len(set(re.findall('[\w]', name1)) - set(job+name)) > 5:
+                                                              ^^^
+UnboundLocalError: cannot access local variable 'job' where it is not associated with a value
+
+
+https://baike.baidu.com/item/é˜³æ±Ÿå¸‚äº¤é€šè¿è¾“å±€?force=1 å±€é•¿ï¼š	2024-02-02 17:29 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 784, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 787, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1å‰¯å±€é•¿XXXï¼š#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 792, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3], name))[0]#notdone
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/æˆéƒ½å¸‚äº¤é€šè¿è¾“å±€?force=1 æˆéƒ½å¸‚äº¤é€šè¿è¾“å±€å‰¯å±€é•¿ï¼šæ›¾è™ï¼ˆæ­£å±€é•¿çº§ï¼‰	2024-02-02 17:37 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 784, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 787, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1å‰¯å±€é•¿XXXï¼š#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 792, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3], name))[0]#notdone
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/ä¸´æ²§å¸‚äº¤é€šè¿è¾“å±€?force=1 å±€é•¿ï¼š	2024-02-02 17:47 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 784, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 787, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1å‰¯å±€é•¿XXXï¼š#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 792, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3], name))[0]#notdone
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/æ—èŠå¸‚äº¤é€šè¿è¾“å±€?force=1 å…šå§”ä¹¦è®°ã€å‰¯å±€é•¿	2024-02-02 17:50 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 863, in fangwen
+    name = name.replace('åŒå¿—', '')
+                                  
+UnboundLocalError: cannot access local variable 'job' where it is not associated with a value
+
+
+https://baike.baidu.com/item/å±±å—å¸‚äº¤é€šè¿è¾“å±€?force=1 å±€é•¿ï¼šï¼ˆç©ºç¼ºï¼‰	2024-02-02 17:50 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 784, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3] and len(set(x) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2, name))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 787, in fangwen
+    name = list(filter(lambda x: not is_job(x) or (len(matchjob(x)) < len(x) - 1), name))[0]  #edit 2.1å‰¯å±€é•¿XXXï¼š#  not is_job(x)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 792, in fangwen
+    name = list(filter(lambda x: len(x) in [2,3], name))[0]#notdone
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/äº¤é€šè¿è¾“éƒ¨ç æ±ŸèˆªåŠ¡ç®¡ç†å±€?force=1 å…šç»„ä¹¦è®°ã€å±€é•¿ï¼š	2024-02-06 16:50 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 780, in fangwen
+    if re.search('.+ï¼š[\w]{2,3}', spillt(name, specialization_list)[0].strip()[-5:]) and len(set(spillt(name, specialization_list)[0].strip()[-3:]) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2:
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/å¼ å®¶å£å¸‚å®£åŒ–åŒºäº¤é€šè¿è¾“å±€?force=1 å±€é•¿ï¼š	2024-02-07 15:25 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 781, in fangwen
+    if re.search('.+ï¼š[\w]{2,3}', spillt(name, specialization_list)[0].strip()[-5:]) and len(set(spillt(name, specialization_list)[0].strip()[-3:]) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2:
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/å¼ å®¶å£å¸‚å®£åŒ–åŒºäº¤é€šè¿è¾“å±€?force=1 å±€é•¿ï¼š	2024-02-07 15:33 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 781, in fangwen
+    if re.search('.+ï¼š[\w]{2,3}', spillt(name, specialization_list)[0].strip()[-5:]) and len(set(spillt(name, specialization_list)[0].strip()[-3:]) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2:
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/æ¸©å·å¸‚æ´å¤´åŒºäº¤é€šè¿è¾“å±€?force=1 æŸ¯ä½å®ªï¼Œå…šç»„ä¹¦è®°ã€å±€é•¿ï¼š	2024-03-08 15:55 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 807, in fangwen
+    if re.search('.+ï¼š[\w]{2,3}', spillt(name, specialization_list)[0].strip()[-5:]) and len(set(spillt(name, specialization_list)[0].strip()[-3:]) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2:
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/æ¸©å·å¸‚æ´å¤´åŒºäº¤é€šè¿è¾“å±€?force=1 æå…‰æ—ï¼Œå…šç»„æˆå‘˜ã€å…¬è·¯ä¸è¿è¾“ç®¡ç†ä¸­å¿ƒä¸»ä»»ï¼š	2024-03-08 15:55 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 807, in fangwen
+    if re.search('.+ï¼š[\w]{2,3}', spillt(name, specialization_list)[0].strip()[-5:]) and len(set(spillt(name, specialization_list)[0].strip()[-3:]) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2:
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/æ¸©å·å¸‚æ´å¤´åŒºäº¤é€šè¿è¾“å±€?force=1 æ¨æ­£è¾‰ï¼Œå…šç»„æˆå‘˜ã€äº¤é€šè¿è¾“ç»¼åˆè¡Œæ”¿æ‰§æ³•é˜Ÿé˜Ÿé•¿ï¼š	2024-03-08 15:55 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 807, in fangwen
+    if re.search('.+ï¼š[\w]{2,3}', spillt(name, specialization_list)[0].strip()[-5:]) and len(set(spillt(name, specialization_list)[0].strip()[-3:]) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2:
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/æ¸©å·å¸‚æ´å¤´åŒºäº¤é€šè¿è¾“å±€?force=1 è‹å¤®å¤®ï¼Œæ¸¯èˆªç®¡ç†ä¸­å¿ƒä¸»ä»»ï¼š	2024-03-08 15:55 Traceback (most recent call last):
+  File "F:\0\ç™¾ç§‘é‡‡é›†-åœ°çº§å¸‚\é‡‡é›†æŸç½‘é¡µçš„ç™¾ç§‘é¡µé¢çš„é¢†å¯¼åå•.py", line 807, in fangwen
+    if re.search('.+ï¼š[\w]{2,3}', spillt(name, specialization_list)[0].strip()[-5:]) and len(set(spillt(name, specialization_list)[0].strip()[-3:]) & set('æ€»å§”å‘˜ä¼šå±€ç»„å‰¯ä¸»ä»»ç¼–è¾‘é™¢é•¿ä¹¦å¤„å·¥è®°')) < 2:
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+

@@ -1,0 +1,307 @@
+https://baike.baidu.com/item/�����н�ͨ�����?force=1 �ο����ϣ� [4]Traceback (most recent call last):
+  File "F:\0\�ٿƲɼ�-�ؼ���\�ɼ�ĳ��ҳ�İٿ�ҳ����쵼����.py", line 403, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[��ͷ['����']], driver)
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/��ɽ�н�ͨ�����?force=1 �ο����ϣ� [4-9]Traceback (most recent call last):
+  File "F:\0\�ٿƲɼ�-�ؼ���\�ɼ�ĳ��ҳ�İٿ�ҳ����쵼����.py", line 403, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[��ͷ['����']], driver)
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+IndexError: list index out of range
+
+https://baike.baidu.com/item/交通运输部科学研究院?force=1 资料来源： [18]2024-02-06 16:50 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 482, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[表头['姓名']], driver)
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/交通运输部规划研究院?force=1 职务	名单2024-02-06 16:50 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 484, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[min(list(set(range(itag)) - {i}))], driver)
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/交通运输部规划研究院?force=1 院长兼党委副书记	刘昕2024-02-06 16:50 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 484, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[min(list(set(range(itag)) - {i}))], driver)
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/交通运输部规划研究院?force=1 纪委书记	陈朝2024-02-06 16:50 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 484, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[min(list(set(range(itag)) - {i}))], driver)
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/交通运输部规划研究院?force=1 副院长	朱鲁存、石良清、徐洪磊2024-02-06 16:50 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 484, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[min(list(set(range(itag)) - {i}))], driver)
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/交通运输部规划研究院?force=1 副院长兼总工程师	金敬东 [17]2024-02-06 16:50 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 484, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[min(list(set(range(itag)) - {i}))], driver)
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+
+https://baike.baidu.com/item/中国民航大学?force=1 党委书记	曹胜利2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航大学?force=1 党委副书记、校长	丁水汀2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航大学?force=1 民航局党组派驻纪检组组长、党委副书记、纪委书记	徐政华2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航大学?force=1 党委常委、副校长	白杰、杨虎、杨新湦2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航大学?force=1 副校长	吴仁彪2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航大学?force=1 党委副书记	赵洪海2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航大学?force=1 党委常委、工会主席	王志强2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航大学?force=1 党委常委、统战部部长	葛维建 [12]2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航飞行学院?force=1 党委书记	李汉成2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航飞行学院?force=1 院长、党委副书记	关立欣2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航飞行学院?force=1 民航局党组派驻学院纪检组组长、学院党委副书记、纪委书记	林青山2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航飞行学院?force=1 党委副书记	王军2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航飞行学院?force=1 党委常委、副院长	欧阳霆（正司局级）、唐庆如、李卫东2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航飞行学院?force=1 党委常委、组织部部长	李蓉（副司局级）2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航飞行学院?force=1 党委常委、宣传部部长、统战部部长	刘英2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航飞行学院?force=1 党委常委、民航监察员培训学院（民航监察员培训基地）院长	郭仁刚2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/中国民航飞行学院?force=1 总飞行师	刘传健 [7]2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 职务	名单2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 党委书记	徐戊填2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 党委副书记、校长	解根怀2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 党委委员、副校长	张昭2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 党委委员、纪委书记	王乐2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 党委委员、副校长	涂卫军 [1]2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/上海民航职业技术学院?force=1 院长，党委副书记	胡亚明2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/上海民航职业技术学院?force=1 党委书记	戴志刚2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/上海民航职业技术学院?force=1 副院长	孙群、杨征、孙暄2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/上海民航职业技术学院?force=1 纪委书记	姚力军2024-02-18 14:31 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 462, in fangwen
+    elif len(tr.find_elements_by_xpath('./*')) <= max([i] + list(表头.keys())) - 1:
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 职务	名单2024-02-18 14:37 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 488, in fangwen
+    if not yl and not is_job(nm) and not is_redundancy(nm):
+           ^^
+UnboundLocalError: cannot access local variable 'yl' where it is not associated with a value
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 党委书记	徐戊填2024-02-18 14:37 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 488, in fangwen
+    if not yl and not is_job(nm) and not is_redundancy(nm):
+           ^^
+UnboundLocalError: cannot access local variable 'yl' where it is not associated with a value
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 党委副书记、校长	解根怀2024-02-18 14:37 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 488, in fangwen
+    if not yl and not is_job(nm) and not is_redundancy(nm):
+           ^^
+UnboundLocalError: cannot access local variable 'yl' where it is not associated with a value
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 党委委员、副校长	张昭2024-02-18 14:37 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 488, in fangwen
+    if not yl and not is_job(nm) and not is_redundancy(nm):
+           ^^
+UnboundLocalError: cannot access local variable 'yl' where it is not associated with a value
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 党委委员、纪委书记	王乐2024-02-18 14:37 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 488, in fangwen
+    if not yl and not is_job(nm) and not is_redundancy(nm):
+           ^^
+UnboundLocalError: cannot access local variable 'yl' where it is not associated with a value
+
+
+https://baike.baidu.com/item/广州民航职业技术学院?force=1 党委委员、副校长	涂卫军 [1]2024-02-18 14:37 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 488, in fangwen
+    if not yl and not is_job(nm) and not is_redundancy(nm):
+           ^^
+UnboundLocalError: cannot access local variable 'yl' where it is not associated with a value
+
+
+https://baike.baidu.com/item/中国民航科学技术研究院?force=1 陈利平2024-02-18 14:37 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 483, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[表头['姓名']], driver)
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/中国民航科学技术研究院?force=1 姚红宇2024-02-18 14:37 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 483, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[表头['姓名']], driver)
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+IndexError: list index out of range
+
+
+https://baike.baidu.com/item/中国民航科学技术研究院?force=1 谢孜楠2024-02-18 14:37 Traceback (most recent call last):
+  File "F:\0\百科采集-地级市\采集某网页的百科页面的领导名单.py", line 483, in fangwen
+    dic, yl, refs = handle_with_person_td(tr.find_elements_by_xpath('./*')[表头['姓名']], driver)
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+IndexError: list index out of range
+
+
